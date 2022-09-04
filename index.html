@@ -1,3 +1,8 @@
+<?php require_once('include/head.php'); ?>
+<title>Giá Dịch Vụ Facebook Instagram Tik Tok</title>
+<?php require_once('include/nav.php'); 
+$don = mysqli_fetch_assoc(mysqli_query($ketnoi, "SELECT COUNT(*) FROM `ticket` WHERE `status` = 'scam' ")) ['COUNT(*)'];
+?>
 <html>
 <head>
 </head>
